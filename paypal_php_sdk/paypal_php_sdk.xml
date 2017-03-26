@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="library" version="3.0" method="upgrade">
+	<name>PayPal PHP SDK</name>
+	<libraryname>paypal_php_sdk</libraryname>
+	<description>The PayPal PHP SDK</description>
+	<creationDate>03-25-2017</creationDate>
+	<author>Joshua E. Vines</author>
+	<authorEmail>dev@phoenixresearch.biz</authorEmail>
+	<authorUrl>http://www.phoenixresearch.biz</authorUrl>
+	<copyright>Copyright (c) 2013-2016 PAYPAL, INC.</copyright>
+	<license>PayPal</license>
+	<version>1.0.0</version>
+	<files>
+		<folder>composer</folder>
+		<folder>paypal</folder>
+		<folder>psr</folder>
+		<file>autoload.php</file>
+	</files>
+	<files target="administrator/manifests/libraries">
+			<file>paypal_php_sdk.xml</file>
+	</files>
+</extension>
